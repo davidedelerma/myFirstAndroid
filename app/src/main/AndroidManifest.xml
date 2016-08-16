@@ -17,7 +17,19 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".AnswerActivity1"
+            android:label="@string/answer1"
+            android:parentActivityName=".HomeworkDay1">
 
+        </activity>
+
+        <activity
+            android:name=".AnswerActivity2"
+            android:label="@string/answer2"
+            android:parentActivityName=".HomeworkDay1">
+
+        </activity>
     </application>
 
 </manifest>

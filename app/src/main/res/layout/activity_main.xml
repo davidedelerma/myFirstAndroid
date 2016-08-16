@@ -6,12 +6,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BAHHHH :-)" />
-    <Button
-        android:id="@+id/button"
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_text"
-        android:drawableLeft="@drawable/button_icon"
-    />
+        android:textSize="10dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/question_text"
+        android:hint="@string/question"
+        />
+
+    <Button
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/button1"/>
+        <!--android:drawableLeft="@drawable/button_icon"/>-->
+
+    <Button
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="@string/button2"/>
+        <!--android:drawableLeft="@drawable/button_icon"/>-->
+
 
 </LinearLayout>

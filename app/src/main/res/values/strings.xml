@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">HomeWorkDay1</string>
-    <string name="button_text">test but</string>
+    <string name="button1">Player 1</string>
+    <string name="button2">Player 2</string>
+    <string name="question">Whats your question</string>
+    <string name="answer1">The answer from P1 is:</string>
+    <string name="answer2">The answer from P2 is:</string>
 </resources>
